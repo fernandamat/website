@@ -1,0 +1,109 @@
+
+/*****************************NAV******************************/
+.navigation {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.navigation .active {
+  text-decoration: underline !important;
+}
+#nav-name-div {
+  text-align: center;
+}
+#nav-name {
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+/*****************************General******************************/
+body {
+  font-family: 'Kanit', sans-serif;
+}
+.content {
+  margin: 5%;
+}
+/*****************************Main******************************/
+
+/*****************************Works******************************/
+.works h2 {
+  font-weight: 800;
+  text-align: center;
+}
+.works h5 {
+  font-weight: 800;
+  text-align: center;
+}
+.works .piece p {
+  text-align: center;
+}
+/*.works .series p {
+  text-align: left;
+}*/
+img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.piece {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#works-menu a {
+  display: block;
+  margin: 5px;
+}
+#works-menu img {
+  display: inline-block;
+  width: 16px;
+  vertical-align: -webkit-baseline-middle;
+}
+
+/*****************************Bio******************************/
+
+/*****************************Contact******************************/
+.contact h4 {
+  text-align: center;
+  padding-top: 10%;
+}
+
+/*****************************Media Queries******************************/
+@media (max-width: 767px) {
+  #nav-name-div {
+    margin-bottom: 10px;
+  }
+  #works-menu {
+    min-width: max-content;
+  }
+  .works .series-description {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
