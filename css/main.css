@@ -1,9 +1,15 @@
 
 /*****************************NAV******************************/
 .navigation {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-left: 0px;
   margin-right: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+  z-index: 1;
+  height: 100px;
 }
 .navigation .active {
   text-decoration: underline !important;
@@ -45,10 +51,15 @@ body {
 }
 .content {
   margin: 5%;
+  margin-top: 100px;
 }
 /*****************************Main******************************/
 
 /*****************************Works******************************/
+
+#works-button:hover + #works-menu{
+  display: block;
+}
 .works h2 {
   font-weight: 800;
   text-align: center;
@@ -74,6 +85,14 @@ img {
 .piece {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+#works-menu {
+  display: none;
+  background-color: white;
+  padding: 8px;
+}
+#works-menu:hover{
+  display: block;
 }
 #works-menu a {
   display: block;
