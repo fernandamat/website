@@ -70,7 +70,7 @@ body {
 
 /*****************************Works******************************/
 
-#works-button:hover + #works-menu, #works-button:focus + #works-menu {
+#works-button:hover + #works-menu, #works-button:active + #works-menu {
   display: block;
 }
 .works h2 {
