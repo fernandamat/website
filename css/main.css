@@ -49,15 +49,28 @@ a:active {
 body {
   font-family: 'Kanit', sans-serif;
 }
+body {
+ /*background-image: url("../img/moon.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;*/
+}
 .content {
   margin: 5%;
   margin-top: 100px;
+}
+.footer {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: lightgray;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 /*****************************Main******************************/
 
 /*****************************Works******************************/
 
-#works-button:hover + #works-menu{
+#works-button:hover + #works-menu, #works-button:focus + #works-menu {
   display: block;
 }
 .works h2 {
@@ -110,6 +123,10 @@ img {
 .contact h4 {
   text-align: center;
   padding-top: 10%;
+}
+.copyright-p {
+  text-align: center;
+  margin-top: 70px;
 }
 
 /*****************************Media Queries******************************/
