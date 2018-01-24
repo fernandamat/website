@@ -71,8 +71,12 @@ body {
 
 /*****************************Works******************************/
 
-#works-button:hover + #works-menu, #works-button:active + #works-menu {
+#works-button:hover + #works-menu, #works-button:active + #works-menu, #works-button:focus + #works-menu {
   display: block;
+}
+#works-button {
+  cursor: default;
+  margin-bottom: 0px;
 }
 .works h2 {
   font-weight: 800;

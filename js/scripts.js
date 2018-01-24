@@ -46,3 +46,13 @@ if (getUrlVars().lan) {
   $('.lanBlock').css('display', 'none');
   $('.sp').css('display', 'initial');
 }
+
+function toggleWorksMenu() {
+  console.log('toggle');
+  if ($('#works-menu')[0].style.display == 'block') {
+    $('#works-menu').css('display', 'none');
+  } else {
+    $('#works-menu').css('display', 'block');
+  }
+
+}
