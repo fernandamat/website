@@ -129,9 +129,16 @@ img {
 }
 
 /*****************************Bio******************************/
+.bio {
+  text-align: center;
+}
 
 /*****************************Contact******************************/
 .contact h4 {
+  text-align: center;
+  padding-top: 30px;
+}
+.contact p {
   text-align: center;
   padding-top: 10%;
 }
